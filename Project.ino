@@ -16,8 +16,8 @@ int ledPin = 2;        // LED pin
 DHT dht(DHTPIN, DHTTYPE);
 
 
-const char* ssid = "Dialog 4G 891";
-const char* password = "Fc910ADF";
+const char* ssid = "";
+const char* password = "";
 
 // Adjust these based on your testing with dry and wet soil
 int dryValue = 3000;  // Analog value when soil is completely dry
